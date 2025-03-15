@@ -1,12 +1,11 @@
 {
   "name": "nextjs-sqlite",
   "repository": "https://github.com/ncrmro/nextjs-sqlite",
-  "packageManager": "pnpm@8.6.3",
   "engines": {
     "node": ">=18"
   },
   "license": "MIT",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "yarn build-migrations && yarn migrations && next dev",
@@ -21,7 +20,7 @@
   },
   "dependencies": {
     "@types/node": "18.15.11",
-    "@types/react": "18.0.37",
+    "@types/react": "^19.0.10",
     "@types/react-dom": "18.0.11",
     "autoprefixer": "10.4.14",
     "better-sqlite3": "^8.4.0",
